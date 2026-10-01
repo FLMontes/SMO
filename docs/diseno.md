@@ -101,7 +101,7 @@ Es el flujo del laboratorio (minuta del 27/11/2025): Datos crudos → Datos cura
 | D4 | Elementos en el ranking | Excluidos (se renormaliza) | — |
 | D5 | Parámetro de PageRank | α = 0,85 (d = 0,15 en la notación del paper) | Cualquier valor |
 | D6 | Datos marcados como dudosos | Excluidos | Incluidos |
-| D7 | Umbral para considerar un elemento "aleante" | Contenido nominal ≥ 0,1 % | Cualquier valor |
+| D7 | Qué elemento cuenta como "aleante" | Tiene mínimo especificado en la norma (los "≤x" son impurezas) y contenido nominal ≥ 0,1 % | Cualquier umbral |
 | D8 | Propiedades físicas por temple | Se suponen independientes del temple (E, ρ, α y T sólidus dependen de la composición) | — |
 
 **Nota sobre d.** En el paper, d es la fracción de **teletransporte**: G = (1−d)·Σ + d/N. En networkx, `alpha` es la fracción que **sigue aristas**. Por eso d = 1 − alpha: el valor genérico "0,85" del paper corresponde en realidad a alpha = 0,85, es decir d = 0,15. Conviene aclararlo en la versión final.

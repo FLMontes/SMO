@@ -27,7 +27,7 @@ tolerancias:
 
 primigenia:
   orientacion: hacia_elemento   # D3: hacia_elemento | bidireccional | ninguna
-  umbral_pct: 0.1               # D7: % nominal mínimo para considerar un elemento "aleante"
+  umbral_pct: 0.1               # D7: aleante = tiene mínimo en la norma y contenido nominal >= umbral (%)
 
 pagerank:
   alpha: 0.85   # D5: fracción que sigue aristas (d del paper = 1 - alpha)
