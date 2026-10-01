@@ -12,6 +12,8 @@ SMO (internamente "Gemas"; PIDTA SeCyT‑UNC 2026, Depto. de Materiales y Tecnol
 
 Flujo del laboratorio: Datos crudos → Datos curados → Objetos (pandas) → Base de datos (SQLite) → Red (networkx).
 
+**Contexto completo:** `referencias/README.md` (índice de los documentos del laboratorio: minutas, panel de tareas, manuscrito de Argencon, código de frutas). Los originales están en `referencias/laboratorio/` y su texto en `referencias/laboratorio/texto/`. Leelos antes de interpretar qué pide el laboratorio. Esa carpeta no se sube a git: no la agregues.
+
 ## Comandos
 ```bash
 .venv\Scripts\activate        # entorno virtual (Windows)

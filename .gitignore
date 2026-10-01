@@ -4,3 +4,6 @@ __pycache__/
 .ipynb_checkpoints/
 data/*.db
 .pytest_cache/
+
+# Documentación interna del laboratorio (no se sube a GitHub)
+referencias/laboratorio/
