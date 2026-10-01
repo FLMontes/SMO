@@ -7,6 +7,7 @@ otra estructura), solo se modifica este módulo.
 from __future__ import annotations
 
 import sqlite3
+from contextlib import closing
 from pathlib import Path
 
 import pandas as pd
@@ -23,7 +24,9 @@ def crear_bd(excel: Path, bd: Path) -> dict[str, int]:
     bd.unlink(missing_ok=True)
     # 'aleacion' en Excel se lee como número (1050); en la BD es texto
     hojas = pd.read_excel(excel, sheet_name=TABLAS, dtype={"aleacion": str})
-    with sqlite3.connect(bd) as con:
+    # closing(): "with sqlite3.connect()" solo hace commit, NO cierra la conexión;
+    # en Windows un archivo abierto no se puede borrar (PermissionError).
+    with closing(sqlite3.connect(bd)) as con, con:
         for nombre, df in hojas.items():
             df.to_sql(nombre, con, index=False)
     return {n: len(df) for n, df in hojas.items()}
@@ -38,7 +41,7 @@ class RepositorioAleaciones:
             raise FileNotFoundError(f"No existe la BD {self.bd}. Ejecutar crear_bd() primero.")
 
     def _consulta(self, sql: str) -> pd.DataFrame:
-        with sqlite3.connect(self.bd) as con:
+        with closing(sqlite3.connect(self.bd)) as con:
             return pd.read_sql(sql, con)
 
     def aleaciones(self) -> pd.DataFrame:
