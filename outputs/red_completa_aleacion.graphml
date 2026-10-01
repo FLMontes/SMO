@@ -1,0 +1,3958 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="atributo" attr.type="string"/>
+<key id="d6" for="node" attr.name="T_solidus_C" attr.type="double"/>
+<key id="d5" for="node" attr.name="alfa_um_mK" attr.type="double"/>
+<key id="d4" for="node" attr.name="densidad_kg_m3" attr.type="double"/>
+<key id="d3" for="node" attr.name="E_GPa" attr.type="double"/>
+<key id="d2" for="node" attr.name="serie" attr.type="string"/>
+<key id="d1" for="node" attr.name="aleacion" attr.type="string"/>
+<key id="d0" for="node" attr.name="tipo" attr.type="string"/>
+<graph edgedefault="directed"><node id="1050">
+  <data key="d0">material</data>
+  <data key="d1">1050</data>
+  <data key="d2">1XXX</data>
+  <data key="d3">69.0</data>
+  <data key="d4">2700.0</data>
+  <data key="d5">23.5</data>
+  <data key="d6">645.0</data>
+</node>
+<node id="1200">
+  <data key="d0">material</data>
+  <data key="d1">1200</data>
+  <data key="d2">1XXX</data>
+  <data key="d3">69.0</data>
+  <data key="d4">2720.0</data>
+  <data key="d5">23.4</data>
+  <data key="d6">645.0</data>
+</node>
+<node id="2007">
+  <data key="d0">material</data>
+  <data key="d1">2007</data>
+  <data key="d2">2XXX</data>
+  <data key="d3">72.5</data>
+  <data key="d4">2850.0</data>
+  <data key="d5">23.0</data>
+  <data key="d6">510.0</data>
+</node>
+<node id="2011">
+  <data key="d0">material</data>
+  <data key="d1">2011</data>
+  <data key="d2">2XXX</data>
+  <data key="d3">72.5</data>
+  <data key="d4">2840.0</data>
+  <data key="d5">23.0</data>
+  <data key="d6">540.0</data>
+</node>
+<node id="2014">
+  <data key="d0">material</data>
+  <data key="d1">2014</data>
+  <data key="d2">2XXX</data>
+  <data key="d3">73.0</data>
+  <data key="d4">2800.0</data>
+  <data key="d5">22.7</data>
+  <data key="d6">505.0</data>
+</node>
+<node id="2017">
+  <data key="d0">material</data>
+  <data key="d1">2017</data>
+  <data key="d2">2XXX</data>
+  <data key="d3">72.5</data>
+  <data key="d4">2790.0</data>
+  <data key="d5">22.9</data>
+  <data key="d6">510.0</data>
+</node>
+<node id="2024">
+  <data key="d0">material</data>
+  <data key="d1">2024</data>
+  <data key="d2">2XXX</data>
+  <data key="d3">73.0</data>
+  <data key="d4">2790.0</data>
+  <data key="d5">23.1</data>
+  <data key="d6">500.0</data>
+</node>
+<node id="2030">
+  <data key="d0">material</data>
+  <data key="d1">2030</data>
+  <data key="d2">2XXX</data>
+  <data key="d3">72.5</data>
+  <data key="d4">2820.0</data>
+  <data key="d5">23.0</data>
+  <data key="d6">510.0</data>
+</node>
+<node id="3003">
+  <data key="d0">material</data>
+  <data key="d1">3003</data>
+  <data key="d2">3XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2730.0</data>
+  <data key="d5">23.1</data>
+  <data key="d6">640.0</data>
+</node>
+<node id="3004">
+  <data key="d0">material</data>
+  <data key="d1">3004</data>
+  <data key="d2">3XXX</data>
+  <data key="d3">70.0</data>
+  <data key="d4">2720.0</data>
+  <data key="d5">23.3</data>
+  <data key="d6">630.0</data>
+</node>
+<node id="3005">
+  <data key="d0">material</data>
+  <data key="d1">3005</data>
+  <data key="d2">3XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2730.0</data>
+  <data key="d5">23.1</data>
+  <data key="d6">635.0</data>
+</node>
+<node id="3103">
+  <data key="d0">material</data>
+  <data key="d1">3103</data>
+  <data key="d2">3XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2730.0</data>
+  <data key="d5">23.1</data>
+  <data key="d6">640.0</data>
+</node>
+<node id="3105">
+  <data key="d0">material</data>
+  <data key="d1">3105</data>
+  <data key="d2">3XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2720.0</data>
+  <data key="d5">23.3</data>
+  <data key="d6">635.0</data>
+</node>
+<node id="5005">
+  <data key="d0">material</data>
+  <data key="d1">5005</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2700.0</data>
+  <data key="d5">23.5</data>
+  <data key="d6">630.0</data>
+</node>
+<node id="5049">
+  <data key="d0">material</data>
+  <data key="d1">5049</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">70.0</data>
+  <data key="d4">2700.0</data>
+  <data key="d5">23.5</data>
+  <data key="d6">615.0</data>
+</node>
+<node id="5052">
+  <data key="d0">material</data>
+  <data key="d1">5052</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">70.0</data>
+  <data key="d4">2680.0</data>
+  <data key="d5">23.7</data>
+  <data key="d6">605.0</data>
+</node>
+<node id="5083">
+  <data key="d0">material</data>
+  <data key="d1">5083</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">71.0</data>
+  <data key="d4">2660.0</data>
+  <data key="d5">23.8</data>
+  <data key="d6">580.0</data>
+</node>
+<node id="5086">
+  <data key="d0">material</data>
+  <data key="d1">5086</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">71.0</data>
+  <data key="d4">2670.0</data>
+  <data key="d5">23.8</data>
+  <data key="d6">585.0</data>
+</node>
+<node id="5154">
+  <data key="d0">material</data>
+  <data key="d1">5154</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">70.5</data>
+  <data key="d4">2680.0</data>
+  <data key="d5">23.8</data>
+  <data key="d6">595.0</data>
+</node>
+<node id="5182">
+  <data key="d0">material</data>
+  <data key="d1">5182</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">71.0</data>
+  <data key="d4">2660.0</data>
+  <data key="d5">24.0</data>
+  <data key="d6">585.0</data>
+</node>
+<node id="5251">
+  <data key="d0">material</data>
+  <data key="d1">5251</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">70.0</data>
+  <data key="d4">2690.0</data>
+  <data key="d5">23.6</data>
+  <data key="d6">605.0</data>
+</node>
+<node id="5454">
+  <data key="d0">material</data>
+  <data key="d1">5454</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">70.5</data>
+  <data key="d4">2690.0</data>
+  <data key="d5">23.6</data>
+  <data key="d6">600.0</data>
+</node>
+<node id="5754">
+  <data key="d0">material</data>
+  <data key="d1">5754</data>
+  <data key="d2">5XXX</data>
+  <data key="d3">70.5</data>
+  <data key="d4">2680.0</data>
+  <data key="d5">23.7</data>
+  <data key="d6">595.0</data>
+</node>
+<node id="6005">
+  <data key="d0">material</data>
+  <data key="d1">6005</data>
+  <data key="d2">6XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2710.0</data>
+  <data key="d5">23.3</data>
+  <data key="d6">605.0</data>
+</node>
+<node id="6016">
+  <data key="d0">material</data>
+  <data key="d1">6016</data>
+  <data key="d2">6XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2700.0</data>
+  <data key="d5">23.4</data>
+  <data key="d6">610.0</data>
+</node>
+<node id="6060">
+  <data key="d0">material</data>
+  <data key="d1">6060</data>
+  <data key="d2">6XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2700.0</data>
+  <data key="d5">23.4</data>
+  <data key="d6">610.0</data>
+</node>
+<node id="6061">
+  <data key="d0">material</data>
+  <data key="d1">6061</data>
+  <data key="d2">6XXX</data>
+  <data key="d3">70.0</data>
+  <data key="d4">2700.0</data>
+  <data key="d5">23.3</data>
+  <data key="d6">580.0</data>
+</node>
+<node id="6063">
+  <data key="d0">material</data>
+  <data key="d1">6063</data>
+  <data key="d2">6XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2700.0</data>
+  <data key="d5">23.5</data>
+  <data key="d6">615.0</data>
+</node>
+<node id="6082">
+  <data key="d0">material</data>
+  <data key="d1">6082</data>
+  <data key="d2">6XXX</data>
+  <data key="d3">70.0</data>
+  <data key="d4">2710.0</data>
+  <data key="d5">23.100000000000005</data>
+  <data key="d6">575.0</data>
+</node>
+<node id="6106">
+  <data key="d0">material</data>
+  <data key="d1">6106</data>
+  <data key="d2">6XXX</data>
+  <data key="d3">69.5</data>
+  <data key="d4">2700.0</data>
+  <data key="d5">23.4</data>
+  <data key="d6">610.0</data>
+</node>
+<node id="7010">
+  <data key="d0">material</data>
+  <data key="d1">7010</data>
+  <data key="d2">7XXX</data>
+  <data key="d3">72.0</data>
+  <data key="d4">2820.0</data>
+  <data key="d5">23.7</data>
+  <data key="d6">475.0</data>
+</node>
+<node id="7020">
+  <data key="d0">material</data>
+  <data key="d1">7020</data>
+  <data key="d2">7XXX</data>
+  <data key="d3">70.0</data>
+  <data key="d4">2780.0</data>
+  <data key="d5">23.3</data>
+  <data key="d6">605.0</data>
+</node>
+<node id="7075">
+  <data key="d0">material</data>
+  <data key="d1">7075</data>
+  <data key="d2">7XXX</data>
+  <data key="d3">72.0</data>
+  <data key="d4">2810.0</data>
+  <data key="d5">23.5</data>
+  <data key="d6">475.0</data>
+</node>
+<node id="Al">
+  <data key="d0">elemento</data>
+</node>
+<node id="Mg">
+  <data key="d0">elemento</data>
+</node>
+<node id="Mn">
+  <data key="d0">elemento</data>
+</node>
+<node id="Cu">
+  <data key="d0">elemento</data>
+</node>
+<node id="Pb">
+  <data key="d0">elemento</data>
+</node>
+<node id="Bi">
+  <data key="d0">elemento</data>
+</node>
+<node id="Si">
+  <data key="d0">elemento</data>
+</node>
+<node id="Cr">
+  <data key="d0">elemento</data>
+</node>
+<node id="Fe">
+  <data key="d0">elemento</data>
+</node>
+<node id="Zn">
+  <data key="d0">elemento</data>
+</node>
+<node id="Zr">
+  <data key="d0">elemento</data>
+</node>
+<node id="Ti">
+  <data key="d0">elemento</data>
+</node>
+<edge source="1050" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="1050" target="1200" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="1200" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="1050" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1050" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1050" target="5052" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1050" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1050" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1050" target="5754" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1050" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1050" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1050" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1050" target="7010" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1050" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="1200" target="1050" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="1050" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="1200" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1200" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1200" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1200" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1200" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="1200" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="6016" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="6060" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="1200" target="6106" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="1200" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2007" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2007" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2007" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2007" target="Pb" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2007" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2007" target="2011" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2007" target="2011" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2007" target="2011" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2007" target="2014" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2007" target="2017" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2007" target="2017" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2007" target="2024" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2007" target="2024" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2007" target="2030" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2007" target="2030" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2007" target="2030" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2007" target="3003" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2007" target="3005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2007" target="3103" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2007" target="6082" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2011" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2011" target="Bi" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2011" target="Pb" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2011" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2011" target="2007" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2011" target="2007" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2011" target="2007" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2011" target="2014" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2011" target="2017" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2011" target="2024" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2011" target="2024" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2011" target="2030" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2011" target="2030" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2011" target="3003" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2011" target="3005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2011" target="3103" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2011" target="6082" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2014" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2014" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2014" target="Si" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2014" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2014" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2014" target="2007" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2014" target="2017" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2014" target="2017" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2014" target="2024" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2014" target="2030" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2014" target="2030" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2014" target="7010" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2014" target="7075" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2017" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2017" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2017" target="Si" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2017" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2017" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2017" target="2007" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2017" target="2007" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2017" target="2007" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2017" target="2011" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2017" target="2011" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2017" target="2011" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2017" target="2014" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2017" target="2014" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2017" target="2024" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2017" target="2024" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2017" target="2024" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2017" target="2030" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2017" target="2030" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2017" target="2030" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2017" target="2030" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2017" target="3003" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2017" target="3005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2017" target="3103" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2017" target="6082" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2017" target="7010" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2017" target="7075" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2024" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2024" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2024" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2024" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2024" target="2007" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2024" target="2014" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2024" target="2014" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2024" target="2014" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2024" target="2017" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2024" target="2017" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2024" target="2030" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2024" target="2030" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2024" target="3003" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2024" target="3004" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2024" target="3005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2024" target="3103" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2024" target="3105" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2024" target="6005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2024" target="6061" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2024" target="6082" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2024" target="7010" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2024" target="7020" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2024" target="7075" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2030" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2030" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2030" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2030" target="Pb" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2030" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="2030" target="2007" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2030" target="2007" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2030" target="2007" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2030" target="2007" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2030" target="2011" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2030" target="2011" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="2030" target="2011" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2030" target="2011" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2030" target="2014" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2030" target="2017" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2030" target="2017" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="2030" target="2024" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="2030" target="2024" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2030" target="3003" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2030" target="3005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2030" target="3103" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2030" target="6082" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="2030" target="7010" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3003" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3003" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3003" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3003" target="1050" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3003" target="1200" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3003" target="2024" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3003" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="3004" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3003" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3003" target="3005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3003" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3003" target="3103" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3003" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3003" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="3105" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3003" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="6005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3003" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="6061" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3003" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="6082" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3003" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3003" target="7020" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3004" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3004" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3004" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="1050" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3004" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3004" target="1200" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="1200" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3004" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3004" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3004" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3004" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3004" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3004" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3004" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3004" target="3105" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3004" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3004" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3004" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3004" target="5154" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3004" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3004" target="5454" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3004" target="5754" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3004" target="6005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="6016" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="6060" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3004" target="6061" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3004" target="6106" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3004" target="7020" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3004" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3005" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3005" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3005" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3005" target="1050" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3005" target="1200" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3005" target="2024" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3005" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3005" target="3003" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3005" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3005" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="3004" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3005" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3005" target="3103" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3005" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3005" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="3105" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3005" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3005" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="6005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3005" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="6061" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3005" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="6082" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3005" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3005" target="7020" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3103" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3103" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3103" target="1050" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3103" target="1200" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3103" target="2024" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3103" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3103" target="3003" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3103" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3103" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="3004" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3103" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3103" target="3005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3103" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="3105" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3103" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="6005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3103" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="6061" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3103" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="6082" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3103" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3103" target="7020" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3105" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3105" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="3105" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="1050" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3105" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3105" target="1200" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="1200" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3105" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3105" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3105" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3105" target="3004" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3105" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3105" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="3105" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="3105" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="6005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="6016" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="6060" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="6061" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="6106" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="3105" target="7020" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="3105" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5005" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5005" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5005" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5005" target="1050" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5005" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="1200" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5005" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5005" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5005" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5005" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5005" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5005" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5005" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="5052" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5005" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5005" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5005" target="5754" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5005" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5005" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5005" target="7010" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5005" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5005" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5049" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5049" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5049" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5049" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5049" target="1050" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5049" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="1200" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5049" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5049" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5049" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5049" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5049" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5049" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5049" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5049" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5049" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5049" target="5052" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5049" target="5154" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5049" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5049" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5049" target="5454" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5049" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5049" target="5754" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5049" target="5754" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5049" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5049" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5049" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5049" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5049" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5049" target="7010" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5049" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5049" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5052" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5052" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5052" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5052" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5052" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5052" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="5083" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5052" target="5086" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5052" target="5154" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5052" target="5154" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="5154" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5052" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5052" target="5251" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="5454" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5052" target="5454" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="5754" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5052" target="5754" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="5754" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5052" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5052" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5052" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5052" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5052" target="7010" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5052" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5052" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5083" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5083" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5083" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5083" target="5052" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5083" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="5086" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5083" target="5086" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5083" target="5086" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5083" target="5086" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="5154" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5083" target="5154" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5083" target="5154" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="5182" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5083" target="5182" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5083" target="5182" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5083" target="5182" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="5251" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5083" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="5454" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5083" target="5454" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="5754" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5083" target="5754" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="6061" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5083" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5086" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5086" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5086" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5086" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="5052" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="5083" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5086" target="5083" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5086" target="5154" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="5154" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5086" target="5154" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="5182" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5086" target="5182" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5086" target="5182" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="5251" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="5454" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="5454" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="5754" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="5754" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5086" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5086" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5154" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5154" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5154" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5154" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="5052" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="5083" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5154" target="5083" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5154" target="5086" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5154" target="5086" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5154" target="5182" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5154" target="5182" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5154" target="5251" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="5454" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5154" target="5454" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="5454" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="5754" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5154" target="5754" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="5754" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5154" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5154" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5182" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5182" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5182" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="5052" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5182" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="5083" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5182" target="5083" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5182" target="5086" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5182" target="5086" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5182" target="5086" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="5154" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5182" target="5154" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="5251" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5182" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="5454" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5182" target="5454" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="5754" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5182" target="5754" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5182" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5251" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5251" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5251" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5251" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5251" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5251" target="5052" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5251" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="5083" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5251" target="5086" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5251" target="5154" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5251" target="5154" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5251" target="5454" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5251" target="5454" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5251" target="5754" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5251" target="5754" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5251" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5251" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5251" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5251" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5251" target="7010" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5251" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5251" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5454" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5454" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5454" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5454" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="5052" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5454" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="5083" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5454" target="5083" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5454" target="5086" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5454" target="5086" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5454" target="5154" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5454" target="5154" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5454" target="5182" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5454" target="5251" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5454" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="5754" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5454" target="5754" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5454" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5454" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5454" target="7010" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5454" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5754" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5754" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5754" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="5754" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="5052" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="5052" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5754" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="5083" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5754" target="5083" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5754" target="5086" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5754" target="5086" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5754" target="5154" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5754" target="5154" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="5154" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5754" target="5154" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="5182" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5754" target="5251" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="5454" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="5754" target="5454" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="5454" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="5754" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="5754" target="7010" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="5754" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6005" target="Si" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6005" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6005" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6005" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6005" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6005" target="1200" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6005" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6005" target="3004" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6005" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6005" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6005" target="3105" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="6016" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="6060" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="6061" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6005" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="6106" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6005" target="7020" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6005" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6005" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6016" target="Si" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6016" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6016" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="1200" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="6060" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6016" target="6106" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6016" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6016" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6016" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6060" target="Fe" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6060" target="Si" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6060" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6060" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="1200" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="6016" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6060" target="6106" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6060" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6060" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6060" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6061" target="Si" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6061" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6061" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6061" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6061" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="1200" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6061" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="3004" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="3105" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6061" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6061" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="5083" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="5086" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="5154" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6061" target="5154" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="5182" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6061" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="5454" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6061" target="5454" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="5754" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6061" target="5754" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="6005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="6016" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="6060" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6061" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6061" target="6106" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6061" target="7020" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6061" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6061" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6063" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6063" target="Si" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6063" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6063" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6063" target="1050" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6063" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="1200" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6063" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6063" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6063" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6063" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6063" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6063" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6063" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6063" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6063" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6063" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="5052" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6063" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6063" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6063" target="5754" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6063" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="6106" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="6106" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6063" target="7010" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6063" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6063" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6082" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6082" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6082" target="Si" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6082" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6082" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6082" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6082" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6082" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6082" target="3004" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6082" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6082" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6082" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6082" target="3105" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6082" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6082" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6082" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="5083" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="5086" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="5154" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6082" target="5154" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="5182" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6082" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="5454" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6082" target="5454" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="5754" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6082" target="5754" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6082" target="6005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6082" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6082" target="6061" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6082" target="6061" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6082" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6082" target="7020" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6082" target="7020" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6106" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6106" target="Si" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6106" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="6106" target="1050" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6106" target="1200" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="1200" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6106" target="3003" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="3003" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="3003" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="3004" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="3005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="3005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="3103" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="3103" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="3103" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="3105" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="3105" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="5005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="5005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6106" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="5049" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6106" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6106" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6106" target="6005" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="6005" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="6016" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="6016" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="6016" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6106" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="6060" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="6060" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="6060" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6106" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="6061" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="6063" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="6063" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="6106" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="6106" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="6082" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="6106" target="7020" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="6106" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7010" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7010" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7010" target="Zn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7010" target="Zr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7010" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7010" target="2007" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7010" target="2007" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7010" target="2011" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7010" target="2011" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7010" target="2014" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7010" target="2017" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7010" target="2024" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7010" target="2030" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7010" target="2030" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7010" target="5052" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7010" target="5083" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7010" target="5086" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7010" target="5154" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7010" target="5754" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7010" target="7075" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7010" target="7075" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7020" target="Mn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7020" target="Zn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7020" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7020" target="Zr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7020" target="Ti" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7020" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7020" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="1200" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="2014" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7020" target="2017" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7020" target="2024" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7020" target="3004" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7020" target="3004" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="3004" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="3005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="3105" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="3105" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="5005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="5049" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7020" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="5049" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="5052" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7020" target="5052" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="5154" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7020" target="5251" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7020" target="5251" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="5454" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7020" target="5754" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7020" target="6005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="6005" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="6016" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="6016" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="6060" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="6060" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="6061" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7020" target="6061" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="6063" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="6082" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7020" target="6106" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7020" target="6106" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7020" target="7075" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7020" target="7075" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="Mg" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7075" target="Cu" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7075" target="Zn" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7075" target="Cr" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7075" target="Al" id="composicion">
+  <data key="d7">composicion</data>
+</edge>
+<edge source="7075" target="1050" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="2007" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7075" target="2011" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7075" target="2011" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7075" target="2014" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7075" target="2017" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7075" target="2024" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+<edge source="7075" target="2030" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7075" target="2030" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7075" target="5005" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="5049" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="5052" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="5251" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="5454" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="5754" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="6063" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="7010" id="E_GPa">
+  <data key="d7">E_GPa</data>
+</edge>
+<edge source="7075" target="7010" id="densidad_kg_m3">
+  <data key="d7">densidad_kg_m3</data>
+</edge>
+<edge source="7075" target="7010" id="alfa_um_mK">
+  <data key="d7">alfa_um_mK</data>
+</edge>
+<edge source="7075" target="7010" id="T_solidus_C">
+  <data key="d7">T_solidus_C</data>
+</edge>
+</graph></graphml>

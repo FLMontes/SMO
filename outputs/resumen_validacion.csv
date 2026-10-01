@@ -1,0 +1,4 @@
+caso,granularidad,n_nodos,spearman,top5_coincidencias,mejor_pagerank,mejor_ashby
+tirante_liviano_resistente,aleacion_estado,45,0.713,5,5083-HX9,7075-T6
+viga_liviana_resistente,aleacion_estado,45,0.715,5,5083-HX9,7075-T6
+viga_liviana_rigida,aleacion,33,0.606,3,5083,5083

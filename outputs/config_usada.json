@@ -1,0 +1,73 @@
+{
+  "datos": {
+    "excel": "data/raw/aleaciones_al_BD.xlsx",
+    "bd": "data/aleaciones_al.db",
+    "salida": "outputs"
+  },
+  "nodos": {
+    "granularidad": "aleacion_estado",
+    "excluir_dudosos": true
+  },
+  "atributos": {
+    "E_GPa": {
+      "nombre": "Módulo elástico E [GPa]",
+      "tolerancia": 0.02
+    },
+    "Rp02_MPa": {
+      "nombre": "Límite elástico Rp0,2 [MPa]",
+      "tolerancia": 0.05
+    },
+    "densidad_kg_m3": {
+      "nombre": "Densidad ρ [kg/m³]",
+      "tolerancia": 0.01
+    },
+    "alfa_um_mK": {
+      "nombre": "Dilatación térmica α [µm/m·K]",
+      "tolerancia": 0.02
+    },
+    "T_solidus_C": {
+      "nombre": "Temperatura sólidus [°C]",
+      "tolerancia": 0.01
+    }
+  },
+  "tolerancias": {
+    "estrategia": "rango",
+    "fraccion_rango": 0.1
+  },
+  "primigenia": {
+    "orientacion": "hacia_elemento",
+    "umbral_pct": 0.1
+  },
+  "pagerank": {
+    "alpha": 0.85,
+    "ponderacion": "por_atributo",
+    "incluir_composicion": true
+  },
+  "casos": {
+    "tirante_liviano_resistente": {
+      "descripcion": "Tirante liviano y resistente (Ashby: M = σy/ρ)",
+      "criterios": {
+        "Rp02_MPa": "maximizar",
+        "densidad_kg_m3": "minimizar"
+      },
+      "indice_ashby": "Rp02_MPa / densidad_kg_m3"
+    },
+    "viga_liviana_resistente": {
+      "descripcion": "Viga liviana y resistente a flexión (Ashby: M = σy^(2/3)/ρ)",
+      "criterios": {
+        "Rp02_MPa": "maximizar",
+        "densidad_kg_m3": "minimizar"
+      },
+      "indice_ashby": "Rp02_MPa ** (2/3) / densidad_kg_m3"
+    },
+    "viga_liviana_rigida": {
+      "descripcion": "Viga liviana y rígida (Ashby: M = E^(1/2)/ρ) — ejemplo de la bicicleta",
+      "criterios": {
+        "E_GPa": "maximizar",
+        "densidad_kg_m3": "minimizar"
+      },
+      "indice_ashby": "E_GPa ** 0.5 / densidad_kg_m3",
+      "granularidad": "aleacion"
+    }
+  }
+}

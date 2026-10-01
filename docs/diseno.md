@@ -95,14 +95,16 @@ Es el flujo del laboratorio (minuta del 27/11/2025): Datos crudos → Datos cura
 ### Decisiones por defecto del PMV (a revisar con Lautaro)
 | ID | Decisión abierta | Valor por defecto | Alternativas implementadas |
 |---|---|---|---|
-| D1 | Nodo = aleación o aleación + temple | `aleacion_estado` | `aleacion` (solo propiedades físicas) |
-| D2 | Origen de las tolerancias | `porcentual` (% por atributo) | `absoluta` |
-| D3 | Primigenia: orientación | `hacia_elemento` (como en las minutas) | `bidireccional`, `ninguna` |
+| D1 | Nodo = aleación o aleación + temple | `aleacion_estado`; el caso de rigidez usa `aleacion` | Se puede pisar por caso |
+| D2 | Origen de las tolerancias | `rango`: ±10 % del rango del atributo | `porcentual`, `absoluta` |
+| D3 | Orientación de la red primigenia | `hacia_elemento` (como en las minutas) | `bidireccional`, `ninguna` |
 | D4 | Elementos en el ranking | Excluidos (se renormaliza) | — |
 | D5 | Parámetro de PageRank | α = 0,85 (d = 0,15 en la notación del paper) | Cualquier valor |
 | D6 | Datos marcados como dudosos | Excluidos | Incluidos |
 | D7 | Qué elemento cuenta como "aleante" | Tiene mínimo especificado en la norma (los "≤x" son impurezas) y contenido nominal ≥ 0,1 % | Cualquier umbral |
 | D8 | Propiedades físicas por temple | Se suponen independientes del temple (E, ρ, α y T sólidus dependen de la composición) | — |
+| D9 | Ponderación de aristas | `por_atributo`: cada criterio pesa igual | `uniforme` (cada arista pesa 1) |
+| D10 | ¿La primigenia participa de la selección? | Sí | No |
 
 **Nota sobre d.** En el paper, d es la fracción de **teletransporte**: G = (1−d)·Σ + d/N. En networkx, `alpha` es la fracción que **sigue aristas**. Por eso d = 1 − alpha: el valor genérico "0,85" del paper corresponde en realidad a alpha = 0,85, es decir d = 0,15. Conviene aclararlo en la versión final.
 
