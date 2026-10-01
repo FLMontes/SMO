@@ -1,8 +1,8 @@
 {
   "datos": {
-    "excel": "data/raw/aleaciones_al_BD.xlsx",
-    "bd": "data/aleaciones_al.db",
-    "salida": "outputs"
+    "excel": "C:\\Proyectos\\Materiales\\SMO\\data\\raw\\aleaciones_al_BD.xlsx",
+    "bd": "C:\\Proyectos\\Materiales\\SMO\\data\\aleaciones_al.db",
+    "salida": "C:\\Proyectos\\Materiales\\SMO\\outputs"
   },
   "nodos": {
     "granularidad": "aleacion_estado",

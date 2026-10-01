@@ -4,7 +4,7 @@ viga_liviana_resistente,0.025,True,-0.103,0
 viga_liviana_rigida,0.025,True,0.291,1
 tirante_liviano_resistente,0.025,False,-0.004,0
 viga_liviana_resistente,0.025,False,-0.009,0
-viga_liviana_rigida,0.025,False,0.305,1
+viga_liviana_rigida,0.025,False,0.306,1
 tirante_liviano_resistente,0.05,True,0.385,2
 viga_liviana_resistente,0.05,True,0.388,2
 viga_liviana_rigida,0.05,True,0.819,4
