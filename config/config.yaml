@@ -1,0 +1,50 @@
+# =============================================================================
+# SMO - Configuración del PMV
+# Cada decisión abierta (D1..D8, ver docs/diseno.md) es un parámetro acá.
+# Cambiar una decisión = cambiar una línea, sin tocar el código.
+# =============================================================================
+
+datos:
+  excel: data/raw/aleaciones_al_BD.xlsx   # BD curada (salida de scripts/construir_bd.py)
+  bd: data/aleaciones_al.db               # se genera automáticamente
+  salida: outputs
+
+nodos:
+  granularidad: aleacion_estado   # D1: aleacion_estado | aleacion
+  excluir_dudosos: true           # D6
+
+# Atributos con los que se arma la red primaria.
+# columna = nombre en la BD; tolerancia = ancho de "vecindad" (D2)
+atributos:
+  E_GPa:          {nombre: "Módulo elástico E [GPa]",      tolerancia: 0.02}
+  Rp02_MPa:       {nombre: "Límite elástico Rp0,2 [MPa]",  tolerancia: 0.05}
+  densidad_kg_m3: {nombre: "Densidad ρ [kg/m³]",           tolerancia: 0.01}
+  alfa_um_mK:     {nombre: "Dilatación térmica α [µm/m·K]", tolerancia: 0.02}
+  T_solidus_C:    {nombre: "Temperatura sólidus [°C]",     tolerancia: 0.01}
+
+tolerancias:
+  estrategia: porcentual   # D2: porcentual (tolerancia = fracción del valor) | absoluta (en unidades)
+
+primigenia:
+  orientacion: hacia_elemento   # D3: hacia_elemento | bidireccional | ninguna
+  umbral_pct: 0.1               # D7: % nominal mínimo para considerar un elemento "aleante"
+
+pagerank:
+  alpha: 0.85   # D5: fracción que sigue aristas (d del paper = 1 - alpha)
+
+# Casos de diseño (inspirados en Ashby, Materials Selection in Mechanical Design).
+# criterios: atributo -> maximizar | minimizar
+# indice_ashby: expresión con los nombres de columna, para validar
+casos:
+  tirante_liviano_resistente:
+    descripcion: "Tirante liviano y resistente (Ashby: M = σy/ρ)"
+    criterios: {Rp02_MPa: maximizar, densidad_kg_m3: minimizar}
+    indice_ashby: "Rp02_MPa / densidad_kg_m3"
+  viga_liviana_resistente:
+    descripcion: "Viga liviana y resistente a flexión (Ashby: M = σy^(2/3)/ρ)"
+    criterios: {Rp02_MPa: maximizar, densidad_kg_m3: minimizar}
+    indice_ashby: "Rp02_MPa ** (2/3) / densidad_kg_m3"
+  viga_liviana_rigida:
+    descripcion: "Viga liviana y rígida (Ashby: M = E^(1/2)/ρ) — ejemplo de la bicicleta"
+    criterios: {E_GPa: maximizar, densidad_kg_m3: minimizar}
+    indice_ashby: "E_GPa ** 0.5 / densidad_kg_m3"
