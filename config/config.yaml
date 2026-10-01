@@ -14,7 +14,8 @@ nodos:
   excluir_dudosos: true           # D6
 
 # Atributos con los que se arma la red primaria.
-# columna = nombre en la BD; tolerancia = ancho de "vecindad" (D2)
+# columna = nombre en la BD; tolerancia = semiancho de "vecindad" usado por las
+# estrategias porcentual (fracción del valor) y absoluta (unidades) — D2
 atributos:
   E_GPa:          {nombre: "Módulo elástico E [GPa]",      tolerancia: 0.02}
   Rp02_MPa:       {nombre: "Límite elástico Rp0,2 [MPa]",  tolerancia: 0.05}
@@ -23,7 +24,8 @@ atributos:
   T_solidus_C:    {nombre: "Temperatura sólidus [°C]",     tolerancia: 0.01}
 
 tolerancias:
-  estrategia: porcentual   # D2: porcentual (tolerancia = fracción del valor) | absoluta (en unidades)
+  estrategia: rango        # D2: rango | porcentual | absoluta
+  fraccion_rango: 0.10     # para "rango": vecindad = ±10 % del rango del atributo en la colección
 
 primigenia:
   orientacion: hacia_elemento   # D3: hacia_elemento | bidireccional | ninguna
@@ -31,10 +33,13 @@ primigenia:
 
 pagerank:
   alpha: 0.85   # D5: fracción que sigue aristas (d del paper = 1 - alpha)
+  ponderacion: por_atributo   # D9: por_atributo (cada criterio pesa igual al salir de un nodo) | uniforme (cada arista pesa 1)
+  incluir_composicion: true   # D10: la red primigenia participa de la sub-red de trabajo
 
 # Casos de diseño (inspirados en Ashby, Materials Selection in Mechanical Design).
 # criterios: atributo -> maximizar | minimizar
 # indice_ashby: expresión con los nombres de columna, para validar
+# granularidad (opcional): pisa nodos.granularidad para ese caso
 casos:
   tirante_liviano_resistente:
     descripcion: "Tirante liviano y resistente (Ashby: M = σy/ρ)"
@@ -48,3 +53,4 @@ casos:
     descripcion: "Viga liviana y rígida (Ashby: M = E^(1/2)/ρ) — ejemplo de la bicicleta"
     criterios: {E_GPa: maximizar, densidad_kg_m3: minimizar}
     indice_ashby: "E_GPa ** 0.5 / densidad_kg_m3"
+    granularidad: aleacion   # E y ρ no dependen del temple (D8): un nodo por aleación evita duplicados

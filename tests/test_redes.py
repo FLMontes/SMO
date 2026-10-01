@@ -67,6 +67,7 @@ class TestTolerancias(unittest.TestCase):
         cfg = {"x": {"tolerancia": 0.05}}
         self.assertEqual(list(calcular_tolerancias(n, cfg, ["x"], "porcentual")["x"]), [5.0, 10.0])
         self.assertEqual(list(calcular_tolerancias(n, cfg, ["x"], "absoluta")["x"]), [0.05, 0.05])
+        self.assertEqual(list(calcular_tolerancias(n, cfg, ["x"], "rango", 0.1)["x"]), [10.0, 10.0])
 
 
 class TestRedPrimaria(unittest.TestCase):

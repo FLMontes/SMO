@@ -15,7 +15,8 @@ CONFIG_DEFECTO = RAIZ / "config" / "config.yaml"
 
 OPCIONES = {
     ("nodos", "granularidad"): {"aleacion_estado", "aleacion"},
-    ("tolerancias", "estrategia"): {"porcentual", "absoluta"},
+    ("tolerancias", "estrategia"): {"rango", "porcentual", "absoluta"},
+    ("pagerank", "ponderacion"): {"por_atributo", "uniforme"},
     ("primigenia", "orientacion"): {"hacia_elemento", "bidireccional", "ninguna"},
 }
 
@@ -42,6 +43,9 @@ def validar_config(cfg: dict) -> None:
     if not 0 < alpha < 1:
         raise ValueError(f"pagerank.alpha debe estar en (0, 1); vale {alpha}")
     for nombre, caso in cfg["casos"].items():
+        g = caso.get("granularidad")
+        if g is not None and g not in OPCIONES[("nodos", "granularidad")]:
+            raise ValueError(f"Caso {nombre}: granularidad {g!r} inválida")
         for atributo, sentido in caso["criterios"].items():
             if atributo not in cfg["atributos"]:
                 raise ValueError(f"Caso {nombre}: atributo {atributo!r} no está en 'atributos'")
