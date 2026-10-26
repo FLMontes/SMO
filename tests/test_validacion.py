@@ -13,9 +13,9 @@ class TestValidacion(unittest.TestCase):
         self.assertAlmostEqual(idx["b"], 400 / 2800)
 
     def test_spearman_extremos(self):
-        a = pd.Series([1, 2, 3, 4], index=list("wxyz"))
-        self.assertAlmostEqual(spearman(a, a * 10), 1.0)
-        self.assertAlmostEqual(spearman(a, -a), -1.0)
+        puestos = pd.Series([1, 2, 3, 4], index=list("wxyz"))
+        self.assertAlmostEqual(spearman(puestos, puestos), 1.0)
+        self.assertAlmostEqual(spearman(puestos, pd.Series([4, 3, 2, 1], index=puestos.index)), -1.0)
 
     def test_comparar_metricas(self):
         rk = pd.DataFrame({"pagerank": [0.5, 0.3, 0.2], "puesto": [1, 2, 3]}, index=list("abc"))
@@ -23,6 +23,30 @@ class TestValidacion(unittest.TestCase):
         self.assertEqual(met["spearman"], 1.0)
         self.assertEqual(met["top2_coincidencias"], 2)
         self.assertEqual(list(comp["puesto_ashby"]), [1, 2, 3])
+
+    def test_comparar_correlaciona_puestos_no_puntajes(self):
+        rk = pd.DataFrame({
+            "pagerank": [0.5, 0.3, 0.2],
+            "puesto": [1, 2, 3],
+        }, index=list("abc"))
+        indice = pd.Series([1000.0, 100.0, 10.0], index=list("abc"))
+
+        comp, met = comparar(rk, indice)
+
+        self.assertEqual(list(comp["puesto_ashby"]), [1, 2, 3])
+        self.assertEqual(met["spearman"], 1.0)
+
+    def test_comparar_usa_solo_materiales_compartidos(self):
+        rk = pd.DataFrame({
+            "pagerank": [0.5, 0.3, 0.2],
+            "puesto": [1, 2, 3],
+        }, index=list("abc"))
+        indice = pd.Series([5.0, 4.0], index=list("ab"))
+
+        comp, met = comparar(rk, indice, k=1)
+
+        self.assertEqual(list(comp.index), list("ab"))
+        self.assertEqual(met["n_nodos"], 2)
 
 
 if __name__ == "__main__":

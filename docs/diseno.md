@@ -34,7 +34,7 @@ Versión liviana de la metodología de Ingeniería de Software (pasos 1 a 6). Lo
 | RF5 | Construir la red primaria: una arista por cada atributo cuyas vecindades se sobrelapan, orientada hacia el valor creciente | Test: caso de 3 nodos armado a mano |
 | RF6 | Extraer la sub‑red de trabajo según los criterios (atributos relevantes y si se maximizan o minimizan) | Test: solo quedan aristas de los atributos elegidos |
 | RF7 | Rankear la sub‑red con PageRank y devolver solo materiales (sin elementos) | Test: las probabilidades suman 1 |
-| RF8 | Comparar el ranking con un índice de Ashby (correlación de Spearman) | Test: el índice coincide con el cálculo manual |
+| RF8 | Comparar los puestos del ranking PageRank y del índice de Ashby mediante Spearman | Test: los puestos coinciden con el cálculo manual |
 | RF9 | Exportar el ranking (CSV) y una figura de la red | Los archivos existen después de correr |
 
 ### No funcionales

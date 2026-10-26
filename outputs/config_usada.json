@@ -1,8 +1,8 @@
 {
   "datos": {
-    "excel": "C:\\Proyectos\\Materiales\\SMO\\data\\raw\\aleaciones_al_BD.xlsx",
-    "bd": "C:\\Proyectos\\Materiales\\SMO\\data\\aleaciones_al.db",
-    "salida": "C:\\Proyectos\\Materiales\\SMO\\outputs"
+    "excel": "C:\\Users\\lauta\\Documents\\UNC\\Laboratorio de materiales\\Investigacion RangePage\\SMO\\data\\raw\\aleaciones_al_BD.xlsx",
+    "bd": "C:\\Users\\lauta\\Documents\\UNC\\Laboratorio de materiales\\Investigacion RangePage\\SMO\\data\\aleaciones_al.db",
+    "salida": "C:\\Users\\lauta\\Documents\\UNC\\Laboratorio de materiales\\Investigacion RangePage\\SMO\\outputs"
   },
   "nodos": {
     "granularidad": "aleacion_estado",

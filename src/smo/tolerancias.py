@@ -3,7 +3,7 @@
 La tolerancia t es el semiancho de la vecindad: el nodo ocupa [v - t, v + t].
 Dos nodos se "tocan" en un atributo si |v1 - v2| <= t1 + t2.
 
-Estrategias (Strategy):
+Estrategias:
   - "rango":      t = fracción · (máx − mín del atributo en la colección).
         Normaliza atributos con dispersiones y unidades distintas (vuelve
         comparables E, que varía ~6 %, y Rp0,2, que varía ~15 veces).

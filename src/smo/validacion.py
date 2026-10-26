@@ -21,20 +21,21 @@ def indice_ashby(nodos: pd.DataFrame, expresion: str) -> pd.Series:
     return nodos.eval(expresion).astype(float).rename("indice_ashby")
 
 
-def spearman(a: pd.Series, b: pd.Series) -> float:
-    a, b = a.align(b, join="inner")
-    return float(a.rank().corr(b.rank()))
+def spearman(puesto_a: pd.Series, puesto_b: pd.Series) -> float:
+    """Correlaciona dos series de puestos, alineadas por identificador."""
+    puesto_a, puesto_b = puesto_a.align(puesto_b, join="inner")
+    return float(puesto_a.corr(puesto_b))
 
 
 def comparar(ranking: pd.DataFrame, indice: pd.Series, k: int = 5) -> tuple[pd.DataFrame, dict]:
     """Agrega el índice y su puesto al ranking, y devuelve métricas de acuerdo."""
-    df = ranking.join(indice)
-    df["puesto_ashby"] = df["indice_ashby"].rank(ascending=False, method="min").astype(int)
+    df = ranking.join(indice.rename("indice_ashby"), how="inner")
+    df["puesto_ashby"] = df["indice_ashby"].rank(ascending=False, method="average")
     top_pr = set(df.nsmallest(k, "puesto").index)
     top_ashby = set(df.nsmallest(k, "puesto_ashby").index)
     metricas = {"n_nodos": len(df),
-                "spearman": round(spearman(df["pagerank"], df["indice_ashby"]), 3),
+                "spearman": round(spearman(df["puesto"], df["puesto_ashby"]), 3),
                 f"top{k}_coincidencias": len(top_pr & top_ashby),
-                "mejor_pagerank": df.index[0],
-                "mejor_ashby": df["indice_ashby"].idxmax()}
+                "mejor_pagerank": df["puesto"].idxmin(),
+                "mejor_ashby": df["puesto_ashby"].idxmin()}
     return df, metricas
