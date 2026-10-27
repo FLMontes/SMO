@@ -1,0 +1,37 @@
+COMO CORRER EL PROGRAMA EN VSCODE:
+
+1 ABRIR LA CARPETA
+En VS Code: File → Open Folder → elegí la carpeta SMO (la raíz, la que tiene README.md, ejecutar.py y requirements.txt). Posicionarse en ejecutar.py. 
+
+2 ABRIR LA TERMINAL
+En VS Code: menú Terminal → New Terminal (o Ctrl+ñ).
+
+3 CREAR EL ENTORNO VIRTUAL (una sola vez)
+En esa terminal escribí:
+python -m venv .venv
+(Si VS Code pregunta si querés usar ese entorno para el workspace, decirle que sí.)
+
+4 ACTIVARLO
+En la misma terminal ejecutar:
+.venv\Scripts\activate
+Vas a ver (.venv) al principio de la línea.
+Si tira error de "ejecución de scripts deshabilitada", correr esto una vez y repetir el activate:
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+5 INSTALAR LAS LIBRERÍAS (una sola vez)
+Con el (.venv) activo:
+pip install -r requirements.txt
+
+6 INDICARLEE A VS CODE QUE USE ESE ENTORNO
+Ctrl+Shift+P → escribir "Python: Select Interpreter" → elegir el que dice.
+
+7 CORRER EL PROGRAMA
+En la terminal:
+python ejecutar.py
+Tarda ~1 minuto y al final muestra una tabla con los 3 casos y el acuerdo con Ashby (0,71 / 0,72 / 0,61). Los resultados quedan en la carpeta outputs.
+
+8 CHEQUEAR QUE TODO ESTÉ OK
+python -m pytest
+Tienen que pasar 22 pruebas.
+
+La próxima vez que abras el proyecto solo hacer los pasos 2, 4 y 7.

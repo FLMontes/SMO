@@ -18,7 +18,7 @@ import networkx as nx  # noqa: E402
 import pandas as pd  # noqa: E402
 
 # Paleta de referencia (skill dataviz): slots categóricos 1–3 y tintas de texto
-AZUL, NARANJA, AQUA = "#2a78d6", "#eb6834", "#1baf7a"
+AZUL, NARANJA, AQUA = "#2a3bd6", "#eb6834", "#1baf7a"
 TINTA, TINTA_2, GRILLA = "#0b0b0b", "#52514e", "#e4e3df"
 CATEGORICOS = [AZUL, NARANJA, AQUA]
 
@@ -40,7 +40,7 @@ def red_sobre_carta(H: nx.MultiDiGraph, comparacion: pd.DataFrame, nodos: pd.Dat
                     ejes: tuple[str, str], nombres: dict, titulo: str, salida: Path,
                     etiquetas: int = 5) -> Path:
     x, y = ejes
-    fig, ax = plt.subplots(figsize=(8, 6), dpi=150)
+    fig, ax = plt.subplots(figsize=(8, 6), dpi=300)
     pos = {n: (nodos.at[n, x], nodos.at[n, y]) for n in nodos.index}
     for u, v, d in H.edges(data=True):
         if u in pos and v in pos and d["atributo"] in ejes:
@@ -70,7 +70,7 @@ def red_sobre_carta(H: nx.MultiDiGraph, comparacion: pd.DataFrame, nodos: pd.Dat
 
 
 def puestos(comparacion: pd.DataFrame, titulo: str, salida: Path) -> Path:
-    fig, ax = plt.subplots(figsize=(5, 5), dpi=150)
+    fig, ax = plt.subplots(figsize=(5, 5), dpi=300)
     n = len(comparacion)
     ax.plot([1, n], [1, n], color=GRILLA, lw=2, zorder=1)
     ax.scatter(comparacion["puesto_ashby"], comparacion["puesto"], s=40, color=AZUL,
@@ -88,7 +88,7 @@ def puestos(comparacion: pd.DataFrame, titulo: str, salida: Path) -> Path:
 
 def sensibilidad(df: pd.DataFrame, salida: Path) -> Path:
     """df con columnas: caso, fraccion_rango, spearman (una línea por caso)."""
-    fig, ax = plt.subplots(figsize=(7, 4.2), dpi=150)
+    fig, ax = plt.subplots(figsize=(7, 4.2), dpi=300)
     finales = []
     for color, (caso, g) in zip(CATEGORICOS, df.groupby("caso", sort=False)):
         g = g.sort_values("fraccion_rango")
