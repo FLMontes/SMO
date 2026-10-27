@@ -87,9 +87,8 @@ def ejecutar(cfg: dict) -> pd.DataFrame:
         metricas.append(met)
         comp.to_csv(out / f"ranking_{nombre}.csv", float_format="%.5f")
         ejes = tuple(caso["criterios"])[::-1]   # x = densidad (2º criterio), y = 1º criterio
-        viz.red_sobre_carta(H, comp, nodos, ejes, nombres, caso["descripcion"],
-                            out / f"red_{nombre}.png")
-        viz.puestos(comp, f"{nombre}: ρs = {met['spearman']}", out / f"puestos_{nombre}.png")
+        viz.red_sobre_carta(H, comp, nodos, ejes, nombres, out / f"red_{nombre}.png")
+        viz.puestos(comp, out / f"puestos_{nombre}.png")
         nx.write_graphml(G, out / f"red_completa_{met['granularidad']}.graphml")
         print(f"2) {nombre}: {met}  red={resumen(G)}")
 

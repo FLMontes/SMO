@@ -23,8 +23,7 @@ TINTA, TINTA_2, GRILLA = "#0b0b0b", "#52514e", "#e4e3df"
 CATEGORICOS = [AZUL, NARANJA, AQUA]
 
 
-def _estilo(ax, titulo: str, xlabel: str, ylabel: str) -> None:
-    ax.set_title(titulo, loc="left", fontsize=11, color=TINTA)
+def _estilo(ax, xlabel: str, ylabel: str) -> None:
     ax.set_xlabel(xlabel, color=TINTA_2)
     ax.set_ylabel(ylabel, color=TINTA_2)
     ax.tick_params(colors=TINTA_2, labelsize=8)
@@ -36,8 +35,58 @@ def _estilo(ax, titulo: str, xlabel: str, ylabel: str) -> None:
         ax.spines[s].set_color(GRILLA)
 
 
+def _anotar_sin_solapamiento(ax, etiquetas: list[tuple[str, tuple[float, float], dict]]) -> None:
+    if not etiquetas:
+        return
+
+    fig = ax.figure
+    dpi = fig.dpi
+    fig.set_dpi(100)
+    try:
+        fig.canvas.draw()
+        renderer = fig.canvas.get_renderer()
+        ocupadas = []
+        direcciones = [(1, 1), (1, -1), (-1, 1), (-1, -1), (0, 1), (0, -1), (1, 0), (-1, 0)]
+        desplazamientos = [(dx * radio, dy * radio) for radio in (8, 16, 24, 32, 40, 52, 64)
+                           for dx, dy in direcciones]
+
+        for texto, posicion, estilo in etiquetas:
+            parametros = {"fontsize": 8, "color": TINTA, "zorder": 4, **estilo}
+            anotacion = ax.annotate(texto, posicion, textcoords="offset points", **parametros)
+            mejor_posicion = desplazamientos[0]
+            mejor_puntaje = float("inf")
+            for dx, dy in desplazamientos:
+                anotacion.set_position((dx, dy))
+                anotacion.set_ha("left" if dx >= 0 else "right")
+                anotacion.set_va("bottom" if dy >= 0 else "top")
+                fig.canvas.draw()
+                caja = anotacion.get_window_extent(renderer)
+                interseccion = sum(
+                    max(0, min(caja.x1, otra.x1) - max(caja.x0, otra.x0))
+                    * max(0, min(caja.y1, otra.y1) - max(caja.y0, otra.y0))
+                    for otra in ocupadas
+                )
+                dentro = caja.width * caja.height - max(
+                    0, min(caja.x1, ax.bbox.x1) - max(caja.x0, ax.bbox.x0)
+                ) * max(0, min(caja.y1, ax.bbox.y1) - max(caja.y0, ax.bbox.y0))
+                puntaje = interseccion + dentro * 2
+                if puntaje < mejor_puntaje:
+                    mejor_puntaje = puntaje
+                    mejor_posicion = (dx, dy)
+                if puntaje == 0:
+                    break
+
+            anotacion.set_position(mejor_posicion)
+            anotacion.set_ha("left" if mejor_posicion[0] >= 0 else "right")
+            anotacion.set_va("bottom" if mejor_posicion[1] >= 0 else "top")
+            fig.canvas.draw()
+            ocupadas.append(anotacion.get_window_extent(renderer))
+    finally:
+        fig.set_dpi(dpi)
+
+
 def red_sobre_carta(H: nx.MultiDiGraph, comparacion: pd.DataFrame, nodos: pd.DataFrame,
-                    ejes: tuple[str, str], nombres: dict, titulo: str, salida: Path,
+                    ejes: tuple[str, str], nombres: dict, salida: Path,
                     etiquetas: int = 5) -> Path:
     x, y = ejes
     fig, ax = plt.subplots(figsize=(8, 6), dpi=300)
@@ -53,34 +102,37 @@ def red_sobre_carta(H: nx.MultiDiGraph, comparacion: pd.DataFrame, nodos: pd.Dat
     for n in comparacion.index:
         ax.scatter(*pos[n], s=tam[n], color=AZUL, alpha=float(alfa[n]),
                    edgecolors="white", linewidths=2, zorder=3)
-    destacados = set(comparacion.nsmallest(etiquetas, "puesto").index)
-    for n in destacados:
-        ax.annotate(f"{n} (#{comparacion.at[n, 'puesto']})", pos[n], xytext=(6, 6),
-                    textcoords="offset points", fontsize=8, color=TINTA, zorder=4)
+    etiquetas_nodos = [
+        (f"{n} (#{comparacion.at[n, 'puesto']})", pos[n], {})
+        for n in comparacion.nsmallest(etiquetas, "puesto").index
+    ]
     mejor_ashby = comparacion["indice_ashby"].idxmax()
-    ax.annotate(f"mejor Ashby: {mejor_ashby}", pos[mejor_ashby], xytext=(6, -12),
-                textcoords="offset points", fontsize=8, color=TINTA_2, style="italic", zorder=4)
-    _estilo(ax, titulo, nombres[x], nombres[y])
-    ax.text(0.0, -0.13, "Tamaño del nodo = puntaje PageRank · flechas = aristas de la sub-red de trabajo",
-            transform=ax.transAxes, fontsize=8, color=TINTA_2)
+    etiquetas_nodos.append(
+        (f"mejor Ashby: {mejor_ashby}", pos[mejor_ashby],
+         {"color": TINTA_2, "fontstyle": "italic"})
+    )
+    _estilo(ax, nombres[x], nombres[y])
     fig.tight_layout()
+    _anotar_sin_solapamiento(ax, etiquetas_nodos)
     fig.savefig(salida)
     plt.close(fig)
     return salida
 
 
-def puestos(comparacion: pd.DataFrame, titulo: str, salida: Path) -> Path:
+def puestos(comparacion: pd.DataFrame, salida: Path) -> Path:
     fig, ax = plt.subplots(figsize=(5, 5), dpi=300)
     n = len(comparacion)
     ax.plot([1, n], [1, n], color=GRILLA, lw=2, zorder=1)
     ax.scatter(comparacion["puesto_ashby"], comparacion["puesto"], s=40, color=AZUL,
                edgecolors="white", linewidths=2, zorder=3)
-    for idx in comparacion.nsmallest(3, "puesto_ashby").index:
-        ax.annotate(idx, (comparacion.at[idx, "puesto_ashby"], comparacion.at[idx, "puesto"]),
-                    xytext=(5, 3), textcoords="offset points", fontsize=8, color=TINTA)
-    _estilo(ax, titulo, "Puesto según índice de Ashby", "Puesto según PageRank")
+    etiquetas = [
+        (idx, (comparacion.at[idx, "puesto_ashby"], comparacion.at[idx, "puesto"]), {})
+        for idx in comparacion.nsmallest(3, "puesto_ashby").index
+    ]
+    _estilo(ax, "Puesto según índice de Ashby", "Puesto según PageRank")
     ax.invert_xaxis(); ax.invert_yaxis()
     fig.tight_layout()
+    _anotar_sin_solapamiento(ax, etiquetas)
     fig.savefig(salida)
     plt.close(fig)
     return salida
@@ -104,8 +156,7 @@ def sensibilidad(df: pd.DataFrame, salida: Path) -> Path:
                     fontsize=8, color=TINTA, va="center", annotation_clip=False)
     ax.set_ylim(top=max(1.0, finales[-1][0] + 0.05))
     ax.axhline(0, color=TINTA_2, lw=0.8)
-    _estilo(ax, "Acuerdo con Ashby según el ancho de vecindad",
-            "Vecindad (fracción del rango del atributo)", "Spearman ρs")
+    _estilo(ax, "Vecindad (fracción del rango del atributo)", "Spearman ρs")
     ax.legend(frameon=False, fontsize=8, loc="lower left")
     ax.set_xlim(right=df["fraccion_rango"].max() * 1.6)
     fig.tight_layout()
