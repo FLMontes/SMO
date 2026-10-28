@@ -6,10 +6,10 @@ Registro de tareas realizadas: qué se hizo, por qué y con qué resultado. Las 
 
 ## 01/10/2026 — Orden del repositorio y arreglo de las pruebas en Windows
 
-Sesión de Franco con Claude Code.
+Sesión de trabajo de Franco.
 
 ### 1. Lectura del estado del proyecto
-- **Qué:** lectura de `CLAUDE.md`, `referencias/README.md`, `docs/` y el panel de tareas del laboratorio.
+- **Qué:** lectura de `referencias/README.md`, `docs/` y el panel de tareas del laboratorio.
 - **Resultado:** resumen del estado (PMV terminado, validación contra Ashby con ρs de 0,71 / 0,72 / 0,61) y lista de temas para llevarle a Lautaro:
   - Argencon: fecha límite de la versión final, **las revisiones de los evaluadores** (no están en `referencias/`), qué va al paper y qué al póster, modalidad póster (consultar a Diego Beltramone) y la notación de d (D5).
   - Las decisiones abiertas D1–D10 (`docs/decisiones_abiertas.md`), sobre todo D2 (tolerancias) y D9 (ponderación).
@@ -20,7 +20,7 @@ Sesión de Franco con Claude Code.
 ### 2. Commit de las salidas regeneradas — `710d59b`
 - **Qué:** commit de los 15 archivos de `outputs/` que estaban en stage después de la corrida del día.
 - **Revisión:** las ~13 000 líneas del diff eran casi todas de formato: finales de línea CRLF, indentación del GraphML y figuras re-renderizadas, más un redondeo en `sensibilidad.csv` (0,305 → 0,306). **Los resultados no cambiaron:** los ρs siguen en 0,713 / 0,715 / 0,606.
-- **Cómo:** en la rama `claude/regenera-outputs`, que Franco después unió a `main`.
+- **Cómo:** en la rama `regenera-outputs`, que Franco después unió a `main`.
 - **Pendiente detectado:** `outputs/config_usada.json` ahora guarda rutas absolutas (`C:\Proyectos\...`) porque `src/smo/config.py` las convierte antes de guardarlas.
 
 ### 3. Arreglo de las conexiones SQLite en Windows — `8814e41`
@@ -32,7 +32,7 @@ Sesión de Franco con Claude Code.
   | Rama | Resultado |
   |---|---|
   | `main` (antes) | 21 passed, 3 errors |
-  | `claude/fix-sqlite-windows` | 21 passed, 0 errors |
+  | `fix-sqlite-windows` | 21 passed, 0 errors |
 
   El total es 21 y no 22: el repositorio tiene 21 pruebas. Los "errors" eran fallas de la limpieza de esas mismas pruebas, que pytest cuenta aparte.
 - **Cómo:** se unió a `main` por fast-forward, con confirmación de Franco, y se borró la rama.
@@ -45,7 +45,7 @@ Sesión de Franco con Claude Code.
 - **Qué:** commit de `.vscode/settings.json` (activa pytest sobre `tests/` en el panel de pruebas) y de `outputs/demo_red.png` (la genera `notebooks/demo_PMV.ipynb`).
 
 ### 6. Limpieza de ramas
-- Se borraron `claude/fix-sqlite-windows` y `claude/regenera-outputs`, que ya estaban en `main`. Queda solo `main`.
+- Se borraron `fix-sqlite-windows` y `regenera-outputs`, que ya estaban en `main`. Queda solo `main`.
 
 ### Estado al cierre
 - `main` está limpio, con todas las pruebas pasando (21/21). No se hizo push.

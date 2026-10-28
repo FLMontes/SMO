@@ -1,6 +1,6 @@
 # SMO — Documento de diseño del PMV
 
-Versión 0.1 · 01/10/2026 · Autor: Franco (con asistencia de Claude)
+Versión 0.1 · 01/10/2026 · Autor: Franco
 
 Versión liviana de la metodología de Ingeniería de Software (pasos 1 a 6). Los pasos 7 a 10 se reflejan en el repositorio: git, código, pruebas y notebook.
 
